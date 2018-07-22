@@ -15,7 +15,6 @@ Install:
 4.) Add to your Hass configuration.yaml:
   
     switch:
-    
       - platform: unifi_client
     
         verify_ssl: false
