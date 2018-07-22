@@ -14,21 +14,21 @@ Install:
 
 4.) Add to your Hass configuration.yaml:
   
-  switch:
-  
-    - platform: unifi_client
+    switch:
     
-      verify_ssl: false
+      - platform: unifi_client
+    
+        verify_ssl: false
       
-      host: "Unifi Controller IP Address"
+        host: "Unifi Controller IP Address"
       
-      username: "UbiquitiUsername"
+        username: "UbiquitiUsername"
       
-      password: "UbiquitiPassword"
+        password: "UbiquitiPassword"
       
-      port: 8443
+        port: 8443
       
-      user_group_name: "UbiquitiGroupName"
+        user_group_name: "UbiquitiGroupName"
       
 
 5.) Restart your Hass server, you should now have "switches" representing each of the devices in the group. Toggling the switch to off will block the device from connecting to the network, toggling the switch on will allow the device to reconnect.
