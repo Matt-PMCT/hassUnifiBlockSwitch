@@ -11,7 +11,7 @@ Install:
 
 2.) On your Ubiquiti Controller create a user with read/write permissions (needed to block/unblock users)
 
-3.) Place the devices you want control over in a group (or use default)
+3.) Inside the Ubiquit Controller place the devices you want control over in HASS inside a group. (Click on the device, then in the details window you can assign it to a group). The name of this group will be used in step 4.
 
 4.) Add to your Hass configuration.yaml:
   
