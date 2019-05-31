@@ -1,0 +1,8 @@
+{
+  "domain": "unifi_block_switch",
+  "name": "Unifi Block Switch",
+  "documentation": "https://github.com/Lopton/hassUnifiBlockSwitch",
+  "dependencies": ["unifi"],
+  "codeowners": ["@Lopton"],
+  "requirements": ["pyunifi==2.13"]
+}

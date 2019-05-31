@@ -7,7 +7,7 @@ I needed the ability to turn off internet access to a child's devices, they had 
 
 Install:
 
-1.) Place the file in your hass\custom_components\switch folder. Create the folder if needed.
+1.) Place the file in your config\custom_components\unifi_device_block folder. Create the folder if needed.
 
 2.) On your Ubiquiti Controller create a user with read/write permissions (needed to block/unblock users)
 
@@ -17,7 +17,6 @@ Install:
   
     switch:
       - platform: unifi_client
-        verify_ssl: false
         host: "Unifi Controller IP Address"
         username: "UbiquitiUsername"
         password: "UbiquitiPassword"
@@ -28,3 +27,6 @@ Install:
 
 Oddities:
 1.) I have had two occasions where unblocked devices seemed to be assigned incorrect IP addresses by the USG. I had to restart the USG to get it fixed, but I haven't opened a support ticket for this yet. Still trying to see if I can reproduce.
+
+Change Log: 
+2019-05-31: Major reconfiguration to accomodate changes in Home Assitant V0.92. 
