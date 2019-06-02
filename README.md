@@ -16,7 +16,7 @@ Install:
 4.) Add to your Hass configuration.yaml:
   
     switch:
-      - platform: unifi_client
+      - platform: unifi_device_block
         host: "Unifi Controller IP Address"
         username: "UbiquitiUsername"
         password: "UbiquitiPassword"
