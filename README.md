@@ -7,7 +7,7 @@ I needed the ability to turn off internet access to a child's devices, they had 
 
 Install:
 
-1.) Place the file in your config\custom_components\unifi_device_block folder. Create the folder if needed.
+1.) Place the project files in your config\custom_components\unifi_device_block folder. Create the folder if needed.
 
 2.) On your Ubiquiti Controller create a user with read/write permissions (needed to block/unblock users)
 
