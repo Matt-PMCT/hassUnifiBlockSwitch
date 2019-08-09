@@ -1,6 +1,9 @@
 # hassUnifiBlockSwitch
 A Home Assistant custom component that allows for block/unblocking a Group on a Ubiquiti Unifi Controller
 
+August 2019 Update:
+This functionality has now been included in the base Home Assistant Device Tracker by someone else. I'm no longer updating or supporting my custom component.
+
 Summary: 
 
 I needed the ability to turn off internet access to a child's devices, they had 4 of them. So I wrote this HASS component to allow me to flip them on or off with a single button (created a "group" of switches), or I can fine tune and allow select devices on or off if I want. Also allows me to use Automations on the HASS server to turn off internet at specified times, and turn back on automatically. This is my first HASS custom component, feel free to improve.
