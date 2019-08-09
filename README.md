@@ -1,7 +1,7 @@
 # hassUnifiBlockSwitch
 A Home Assistant custom component that allows for block/unblocking a Group on a Ubiquiti Unifi Controller
 
-August 2019 Update:
+# August 2019 Update:
 This functionality has now been included in the base Home Assistant Device Tracker by someone else. I'm no longer updating or supporting my custom component.
 
 Summary: 
